@@ -1,0 +1,72 @@
+body{
+	font-family: montserrat;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #5e5c64ff;
+	color: white;
+}
+.navbar{
+	height: 25px;
+	position: relative;
+}
+ul{
+	position: absolute;
+	margin: auto;
+	top: 20px;
+}
+li{
+	display: inline-block;
+	padding: 10px;
+}
+.logo{
+	padding-right: 450px;
+	font-size: 20px;
+	font-family: noto serif;
+}
+.login{
+	margin-left: 420px;
+}
+.title {
+	margin-top: 150px;
+	margin-left: 400px;
+	color: yellow;
+	letter-spacing: 4px;
+}
+.line{
+	background-color: yellow;
+	width: 60px;
+	height: 1px;
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 320px;
+}
+.container div{
+	position: absolute;
+}
+.social{
+	margin-left: 50px;
+}
+.social h4{
+	writing-mode: vertical-rl;
+}
+.paragraph{
+	margin-left: 320px;
+}
+.paragraph p{
+	position: relative;
+	font-family: noto serif;
+	font-size: 52px;
+	font-weight: initial;
+	top: -52px;
+}
+.scroll{
+	margin-left: 1220px;
+}
+.down{
+	margin-top: 178px;
+	margin-left: 320px;
+}
+.down a{
+	text-decoration-line: none;
+	color: white;
+}
