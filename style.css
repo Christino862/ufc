@@ -2,8 +2,16 @@ body{
 	font-family: montserrat;
 	font-weight: bold;
 	font-size: 12px;
-	background-color: #5e5c64ff;
+	background-color: #0b1d26ff;
 	color: white;
+}
+.bg-img{
+	background: url(./assets/images/bg-img.jpg);
+	background-size: cover;
+	box-sizing: content-box;
+	/*-webkit-box-shadow: inset 0px 0px 70px 70px #444444;
+	-moz-box-shadow: inset 0px 0px 70px 70px #444444;
+	box-shadow: inset 0px 0px 40px 50px #0b1d26ff;*/
 }
 .navbar{
 	height: 25px;
@@ -20,34 +28,33 @@ li{
 }
 .logo{
 	padding-right: 450px;
-	font-size: 20px;
+	font-size: 22px;
 	font-family: noto serif;
 }
 .login{
-	margin-left: 420px;
+	margin-left: 430px;
 }
 .title {
-	margin-top: 150px;
+	margin-top: 170px;
 	margin-left: 400px;
 	color: yellow;
 	letter-spacing: 4px;
 }
 .line{
 	background-color: yellow;
-	width: 60px;
+	width: 50px;
 	height: 1px;
 	position: absolute;
 	margin-top: 8px;
-	margin-left: 320px;
+	margin-left: 330px;
 }
 .container div{
 	position: absolute;
 }
 .social{
 	margin-left: 50px;
-}
-.social h4{
 	writing-mode: vertical-rl;
+	margin-top: 20px;
 }
 .paragraph{
 	margin-left: 320px;
@@ -57,10 +64,10 @@ li{
 	font-family: noto serif;
 	font-size: 52px;
 	font-weight: initial;
-	top: -52px;
+	top: -50px;
 }
 .scroll{
-	margin-left: 1220px;
+	margin-left: 1245px;
 }
 .down{
 	margin-top: 178px;
@@ -69,4 +76,41 @@ li{
 .down a{
 	text-decoration-line: none;
 	color: white;
+}
+.titleSection h1{
+	position: absolute;
+	color: white;
+	font-size: 150px;
+	margin-top: -70px;
+	margin-left: 228px;
+	opacity: 20%;
+}
+.firstSection{
+	margin-top: 580px;
+	margin-left: -100px;
+}
+#firstSection{
+	font-size: 40px;
+}
+#firstParagraph{
+	position: relative;
+	font-family: montserrat;
+	font-size: 12px;
+	font-weight: bold;
+	top: -80px;
+	padding-top: 8px;
+}
+.img{
+	position: relative;
+	margin-left: 860px;
+	width: 350px;
+	height: 450px;
+	background: url(./assets/images/firstIMG.png);
+	background-size: 100%;
+	top: 920px;
+}
+#more{
+	position: absolute;
+	margin-top: 50px;
+	color: yellow;
 }
