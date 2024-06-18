@@ -137,3 +137,25 @@ li{
 	margin-top: 50px;
 	color: yellow;
 }
+footer{
+	position: relative;
+	margin-top: 450px;
+	margin-left: 220px;
+	margin-bottom: 200px;
+}
+.description{
+	margin-left: 690px;
+	margin-top: -110px;
+}
+#description2{
+	margin-left: 900px;
+	margin-top: -205px;
+}
+.description h1{
+	font-size: 14px;
+	color: yellow;
+}
+.description p{
+	margin-top: 20px;
+	font-weight: initial;
+}
