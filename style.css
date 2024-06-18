@@ -9,9 +9,9 @@ body{
 	background: url(./assets/images/bg-img.jpg);
 	background-size: cover;
 	box-sizing: content-box;
-	/*-webkit-box-shadow: inset 0px 0px 70px 70px #444444;
+	-webkit-box-shadow: inset 0px 0px 70px 70px #444444;
 	-moz-box-shadow: inset 0px 0px 70px 70px #444444;
-	box-shadow: inset 0px 0px 40px 50px #0b1d26ff;*/
+	box-shadow: inset 0px 0px 40px 50px #0b1d26ff;
 }
 .navbar{
 	height: 25px;
@@ -57,7 +57,7 @@ li{
 	margin-top: 20px;
 }
 .paragraph{
-	margin-left: 320px;
+	margin-left: 335px;
 }
 .paragraph p{
 	position: relative;
@@ -81,13 +81,13 @@ li{
 	position: absolute;
 	color: white;
 	font-size: 150px;
-	margin-top: -70px;
+	margin-top: -80px;
 	margin-left: 228px;
 	opacity: 20%;
 }
 .firstSection{
 	margin-top: 580px;
-	margin-left: -100px;
+	margin-left: -40px;
 }
 #firstSection{
 	font-size: 40px;
@@ -102,14 +102,37 @@ li{
 }
 .img{
 	position: relative;
-	margin-left: 860px;
+	margin-left: 950px;
 	width: 350px;
-	height: 450px;
+	height: 420px;
 	background: url(./assets/images/firstIMG.png);
 	background-size: 100%;
-	top: 920px;
+	top: 900px;
+}
+.img2{
+	position: relative;
+	margin-left: -300px;
+	width: 350px;
+	height: 420px;
+	background: url(./assets/images/firstIMG.png);
+	background-size: 100%;
+	top: 1450px;
+}
+.img3{
+	position: relative;
+	margin-left: 950px;
+	width: 350px;
+	height: 420px;
+	background: url(./assets/images/firstIMG.png);
+	background-size: 100%;
+	top: 2050px;
+}
+.secondSection{
+	margin-top: 550px;
+	margin-left: 500px;
 }
 #more{
+	margin-left: 10px;
 	position: absolute;
 	margin-top: 50px;
 	color: yellow;
