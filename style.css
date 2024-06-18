@@ -145,11 +145,11 @@ footer{
 }
 .description{
 	margin-left: 690px;
-	margin-top: -110px;
+	margin-top: -80px;
 }
 #description2{
 	margin-left: 900px;
-	margin-top: -205px;
+	margin-top: -206px;
 }
 .description h1{
 	font-size: 14px;
@@ -158,4 +158,9 @@ footer{
 .description p{
 	margin-top: 20px;
 	font-weight: initial;
+}
+#copyright{
+	position: absolute;
+	font-weight: initial;
+	padding-top: 85px;
 }
