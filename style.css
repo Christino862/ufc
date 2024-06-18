@@ -26,6 +26,10 @@ li{
 	display: inline-block;
 	padding: 10px;
 }
+li a{
+	text-decoration: none;
+	color: white;
+}
 .logo{
 	padding-right: 450px;
 	font-size: 22px;
@@ -163,4 +167,7 @@ footer{
 	position: absolute;
 	font-weight: initial;
 	padding-top: 85px;
+}
+.pageLink h1{
+	font-family: noto serif;
 }
