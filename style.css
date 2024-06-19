@@ -1,17 +1,21 @@
 body{
-	font-family: montserrat;
+	font-family: gilroy;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 18px;
 	background-color: #0b1d26ff;
 	color: white;
+}
+i{
+	padding: 5px;
 }
 .bg-img{
 	background: url(./assets/images/bg-img.jpg);
 	background-size: cover;
-	box-sizing: content-box;
-	-webkit-box-shadow: inset 0px 0px 70px 70px #444444;
-	-moz-box-shadow: inset 0px 0px 70px 70px #444444;
-	box-shadow: inset 0px 0px 40px 50px #0b1d26ff;
+	width: 100%;
+	min-height: 100vh;
+	-webkit-box-shadow: inset 0px 0px 70px 70px #0b1d26ff;
+	-moz-box-shadow: inset 0px 0px 70px 70px #0b1d26ff;
+	box-shadow: 0px 10px 5px #888, 0px -10px 5px #888 #0b1d26ff;
 }
 .navbar{
 	height: 25px;
@@ -31,12 +35,12 @@ li a{
 	color: white;
 }
 .logo{
-	padding-right: 450px;
+	padding-right: 420px;
 	font-size: 22px;
 	font-family: noto serif;
 }
 .login{
-	margin-left: 430px;
+	margin-left: 360px;
 }
 .title {
 	margin-top: 170px;
@@ -47,9 +51,9 @@ li a{
 .line{
 	background-color: yellow;
 	width: 50px;
-	height: 1px;
+	height: 2px;
 	position: absolute;
-	margin-top: 8px;
+	margin-top: 12px;
 	margin-left: 330px;
 }
 .container div{
@@ -78,7 +82,7 @@ li a{
 	margin-left: 320px;
 }
 .down a{
-	text-decoration-line: none;
+	text-decoration: none;
 	color: white;
 }
 .titleSection h1{
@@ -102,6 +106,7 @@ li a{
 	font-size: 12px;
 	font-weight: bold;
 	top: -80px;
+	line-height: 1.8;
 	padding-top: 8px;
 }
 .img{
@@ -118,7 +123,7 @@ li a{
 	margin-left: -300px;
 	width: 350px;
 	height: 420px;
-	background: url(./assets/images/firstIMG.png);
+	background: url(./assets/images/secondIMG.png);
 	background-size: 100%;
 	top: 1450px;
 }
@@ -127,7 +132,7 @@ li a{
 	margin-left: 950px;
 	width: 350px;
 	height: 420px;
-	background: url(./assets/images/firstIMG.png);
+	background: url(./assets/images/thirdIMG.png);
 	background-size: 100%;
 	top: 2050px;
 }
@@ -138,25 +143,25 @@ li a{
 #more{
 	margin-left: 10px;
 	position: absolute;
-	margin-top: 50px;
+	margin-top: 80px;
 	color: yellow;
 }
 footer{
 	position: relative;
 	margin-top: 450px;
 	margin-left: 220px;
-	margin-bottom: 150px;
+	margin-bottom: 200px;
 }
 .description{
 	margin-left: 690px;
-	margin-top: -80px;
+	margin-top: -135px;
 }
 #description2{
-	margin-left: 900px;
-	margin-top: -206px;
+	margin-left: 950px;
+	margin-top: -265px;
 }
 .description h1{
-	font-size: 14px;
+	font-size: 18px;
 	color: yellow;
 }
 .description p{
